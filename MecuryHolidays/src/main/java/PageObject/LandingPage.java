@@ -18,4 +18,36 @@ public class LandingPage {
 	@FindBy (id="RegionID")
 	WebElement destination;
 	
+	@FindBy (id="AirportID")
+	WebElement from;
+	
+	@FindBy(id="HotelID")
+	WebElement hotel;
+	
+	@FindBy(id="departureDate")
+	WebElement depart;
+	
+	
+	
+	
+	public WebElement obj_destination()
+	{
+		return destination;
+	}
+	
+	public WebElement obj_from()
+	{
+		return from;
+	}
+	
+	public WebElement obj_hotel()
+	{
+		return hotel;
+	}
+	
+	public WebElement obj_depart()
+	{
+		return depart;
+	}
+	
 }
