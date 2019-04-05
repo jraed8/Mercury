@@ -14,7 +14,7 @@ public class Tc1 extends Base{
 		driver= initializeDriver();
 		driver.get(prop.getProperty("url"));
 		
-				
+			driver.close();	
 	}
 	
 }
